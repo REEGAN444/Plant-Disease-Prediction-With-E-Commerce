@@ -1,73 +1,189 @@
-# Welcome to your Lovable project
+# 🌿 Leaf Disease Prediction with E-commerce Platform (MERN Stack)
 
-## Project info
+## 📌 Project Overview
 
-**URL**: https://lovable.dev/projects/3ec45673-124d-498c-87af-ae71b8f4f38b
+Leaf Disease Prediction with E-commerce is a web application that helps farmers identify plant leaf diseases using image prediction and provides an online marketplace to purchase recommended agricultural products such as fertilizers, pesticides, and tools.
 
-## How can I edit this code?
+The system uses a **machine learning model for leaf disease detection** and a **MERN stack web platform** for user interaction and product purchasing.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3ec45673-124d-498c-87af-ae71b8f4f38b) and start prompting.
+### 🌱 Disease Prediction
 
-Changes made via Lovable will be committed automatically to this repo.
+* Upload leaf images
+* AI/ML model predicts plant disease
+* Displays disease name and information
+* Suggests treatment or pesticides
 
-**Use your preferred IDE**
+### 🛒 E-commerce Platform
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Browse agricultural products
+* Add products to cart
+* Secure checkout process
+* Order management
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 👤 User Features
 
-Follow these steps:
+* User registration and login
+* Image upload for disease prediction
+* View prediction history
+* Purchase recommended products
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🛠 Admin Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Manage products (Add / Update / Delete)
+* Manage users
+* View orders
+* Update product stock
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🧰 Technologies Used
+
+### Frontend
+
+* React.js
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap / Tailwind (optional)
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+
+### Other Tools
+
+* Machine Learning Model for Leaf Disease Prediction
+* REST API
+* Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+leaf-disease-ecommerce
+│
+├── client/          # React Frontend
+│
+├── server/          # Node.js + Express Backend
+│
+├── model/           # ML Model for disease prediction
+│
+├── database/        # MongoDB configuration
+│
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ⚙️ Installation and Setup
 
-**Use GitHub Codespaces**
+### 1️⃣ Clone the Repository
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+git clone https://github.com/your-username/leaf-disease-ecommerce.git
+cd leaf-disease-ecommerce
+```
 
-## What technologies are used for this project?
+### 2️⃣ Install Dependencies
 
-This project is built with:
+Frontend:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+cd client
+npm install
+```
 
-## How can I deploy this project?
+Backend:
 
-Simply open [Lovable](https://lovable.dev/projects/3ec45673-124d-498c-87af-ae71b8f4f38b) and click on Share -> Publish.
+```bash
+cd server
+npm install
+```
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+### 3️⃣ Configure Environment Variables
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Create a `.env` file in the **server folder**.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Example:
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+---
+
+### 4️⃣ Run the Application
+
+Start backend server:
+
+```bash
+cd server
+npm start
+```
+
+Start frontend:
+
+```bash
+cd client
+npm start
+```
+
+---
+
+## 🖥 Usage
+
+1. Register or login to the system
+2. Upload a leaf image for disease prediction
+3. View predicted disease and recommended treatment
+4. Browse agricultural products
+5. Add products to cart and place an order
+
+---
+
+## 📸 Screenshots
+
+(Add your project screenshots here)
+
+```
+/screenshots/homepage.png
+/screenshots/prediction.png
+/screenshots/ecommerce.png
+```
+
+---
+
+## 🔮 Future Improvements
+
+* Mobile application integration
+* More plant disease datasets
+* Payment gateway integration
+* Real-time farmer support chat
+* Recommendation system for fertilizers and pesticides
+
+---
+
+## 👨‍💻 Author
+
+**Immanuvel Reegan**
+
+GitHub: https://github.com/REEGAN444
+
+---
+
+## 📜 License
+
+This project is developed for educational and research purposes.
